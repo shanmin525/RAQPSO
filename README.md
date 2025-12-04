@@ -1,1 +1,1 @@
-RAQPSO: Riemannian Adaptive Quantum-behaved Particle Swarm Optimization
+RAQPSO: Riemannian Adapted Quantum-behaved Particle Swarm Optimization
