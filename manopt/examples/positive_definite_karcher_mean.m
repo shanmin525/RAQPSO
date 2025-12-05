@@ -110,5 +110,5 @@
     % Our initial guess is the first data point. Most solvers work well
     % with this problem. Limited-memory BFGS is one good example:
     X = rlbfgs(problem, A(:, :, 1));
-%     [x_RQPSO_exp, xcost_RQPSO_exp, info_RQPSO_exp] = RQPSO_exp(problem,[],[],0.9,10);
+
 end
