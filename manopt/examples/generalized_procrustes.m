@@ -134,9 +134,8 @@ function [A, R] = generalized_procrustes(A_measure)
     
     % Call a solver on our problem. This can probably be much improved if a
 	% clever initial guess is used instead of a random one.
-%     X = trustregions(problem);
-     [X, fbest, info, gbestlog] = RQPSO_exp2_m_product(problem, opts, 0.7, 0.6, 1);
-%     [ X, xcost_ManES, info_ManES] = ManES_product(problem,[],opts);
+     X = trustregions(problem);
+
     A = X.A;
     R = X.R;
    
