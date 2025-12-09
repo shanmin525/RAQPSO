@@ -2,7 +2,6 @@ This repository contains the implementation of RAQPSO for optimization on Rieman
 The algorithm has been encapsulated as a MATLAB function and can be directly applied to any test problem.
 
 ---
-
 # Requirements
 
 - MATLAB R2020 or later  
@@ -13,7 +12,8 @@ Add Manopt to your MATLAB path:
 
 ```matlab
 addpath(genpath('path/to/manopt'));
- **` ``` `**
+```
+
 # Usage
 
 - Define a Test Problem
@@ -21,6 +21,5 @@ addpath(genpath('path/to/manopt'));
   - **`problem.cost`** — the cost function
   - **`problem.egrad`** — (Optional) Euclidean gradient
   - **Initialization point** — (Optional) starting point
-
 
 
