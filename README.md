@@ -20,7 +20,6 @@ addpath(genpath('path/to/manopt'));
   - **`problem.M`** — the manifold
   - **`problem.cost`** — the cost function
   - **`problem.egrad`** — (Optional) Euclidean gradient
-  - **Initialization point** — (Optional) starting point
 Example: test_problem.m
 ```matlab
 function problem = test_problem()
@@ -37,6 +36,5 @@ function problem = test_problem()
     problem.cost = @(X) -trace(X' * A * X);
     problem.egrad = @(X) -2 * A * X;
 end
-
 ```
 
