@@ -21,5 +21,22 @@ addpath(genpath('path/to/manopt'));
   - **`problem.cost`** — the cost function
   - **`problem.egrad`** — (Optional) Euclidean gradient
   - **Initialization point** — (Optional) starting point
+Example: test_problem.m
+```matlab
+function problem = test_problem()
+    % Stiefel manifold example
+    n = 50; 
+    k = 5;
 
+    M = stiefelfactory(n, k);
+
+    A = randn(n); 
+    A = 0.5 * (A + A');  % Symmetric
+
+    problem.M = M;
+    problem.cost = @(X) -trace(X' * A * X);
+    problem.egrad = @(X) -2 * A * X;
+end
+
+```
 
