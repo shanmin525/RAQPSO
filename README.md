@@ -12,8 +12,8 @@ The algorithm has been encapsulated as a MATLAB function and can be directly app
 Add Manopt to your MATLAB path:
 
 ```matlab
-addpath(genpath('path/to/manopt'));```
-
+addpath(genpath('path/to/manopt'));
+ **` ``` `**
 # Usage
 
 - Define a Test Problem
