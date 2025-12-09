@@ -1,4 +1,20 @@
-RAQPSO: Riemannian Adapted Quantum-behaved Particle Swarm Optimization
+This repository contains the implementation of RAQPSOfor optimization on Riemannian manifolds.
+The algorithm has been encapsulated as a MATLAB function and can be directly applied to any test problem.
+
+
+---
+
+## Requirements
+
+- MATLAB R2020 or later  
+- Manopt toolbox  
+  - Website: https://www.manopt.org  
+
+Add Manopt to your MATLAB path:
+
+```matlab
+addpath(genpath('path/to/manopt'));
+
 
 Install Manopt
 1.Either git-clone or unzip the whole manopt directory you just downloaded in a location of your choice, say, in /my/directory/.
