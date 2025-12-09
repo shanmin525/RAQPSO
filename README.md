@@ -1,6 +1,5 @@
-This repository contains the implementation of RAQPSOfor optimization on Riemannian manifolds.
+This repository contains the implementation of RAQPSO for optimization on Riemannian manifolds.
 The algorithm has been encapsulated as a MATLAB function and can be directly applied to any test problem.
-
 
 ---
 
@@ -15,17 +14,19 @@ Add Manopt to your MATLAB path:
 ```matlab
 addpath(genpath('path/to/manopt'));
 
+
 ---
 
 ## Usage
 
-Define a Test Problem
+- **Define a Test Problem**
 
-A valid test problem should include:
+  A valid test problem should include:
 
-- **`problem.M`** — the manifold  
-- **`problem.cost`** — the cost function  
-- **(Optional) `problem.egrad`** — Euclidean gradient  
-- **(Optional) initialization point**
+  - **`problem.M`** — the manifold  
+  - **`problem.cost`** — the cost function  
+  - **(Optional) `problem.egrad`** — Euclidean gradient  
+  - **(Optional) initialization point**
+
 
 
