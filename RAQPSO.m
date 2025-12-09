@@ -2,7 +2,7 @@ function [Ybest, fbest, info,gbestlog] = RAQPSO(problem, options)
 dim = problem.M.dim();
 [n,p] = size(problem.M.rand());
 localdefaults = struct('popsize',4*floor(log(dim)),...
-    'maxcostevals',nn*p*10000);
+    'maxcostevals',n*p*10000);
 options = mergeOptions(mergeOptions(getGlobalDefaults(), localdefaults),options);
 iter = 1;
 %initialtion
