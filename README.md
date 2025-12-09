@@ -3,7 +3,7 @@ The algorithm has been encapsulated as a MATLAB function and can be directly app
 
 ---
 
-## Requirements
+# Requirements
 
 - MATLAB R2020 or later  
 - Manopt toolbox  
@@ -14,7 +14,7 @@ Add Manopt to your MATLAB path:
 ```matlab
 addpath(genpath('path/to/manopt'));
 
-## Usage
+# Usage
 
 - Define a Test Problem
   - **`problem.M`** — the manifold
