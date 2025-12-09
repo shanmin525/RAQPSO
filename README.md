@@ -16,14 +16,11 @@ addpath(genpath('path/to/manopt'));
 
 ## Usage
 
-- **Define a Test Problem**
-
-  A valid test problem should include:
-
-  - **`problem.M`** — the manifold  
-  - **`problem.cost`** — the cost function  
-  - **(Optional) `problem.egrad`** — Euclidean gradient  
-  - **(Optional) initialization point**
+- Define a Test Problem
+  - **`problem.M`** — the manifold
+  - **`problem.cost`** — the cost function
+  - **`problem.egrad`** — (Optional) Euclidean gradient
+  - **Initialization point** — (Optional) starting point
 
 
 
