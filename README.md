@@ -15,8 +15,9 @@ Add Manopt to your MATLAB path:
 ```matlab
 addpath(genpath('path/to/manopt'));
 
-## Usage
+---
 
+## Usage
 ### 1. Define a Test Problem
 
 A valid test problem should include:
