@@ -18,7 +18,8 @@ addpath(genpath('path/to/manopt'));
 ---
 
 ## Usage
-### 1. Define a Test Problem
+
+Define a Test Problem
 
 A valid test problem should include:
 
