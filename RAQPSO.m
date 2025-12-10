@@ -30,7 +30,7 @@ gbestlog(iter)=fbest;
 while FES(iter) <=maxcostevals
     pop_pre = pop;
     prevfits = fit;
-    if iter<e*maxcostevals
+    if iter<0.6*maxcostevals
         if FES(iter)<e*maxcostevals
             tt=randi(popsize);
             mbest=findmean(problem,tt,pbest_pop,pbestvalue,popsize,rtt(iter));
